@@ -8,6 +8,7 @@ class Image extends React.Component {
                     <h1 className="title">Welcome to Jepardy!</h1>
                     <button onClick={() => {
                         this.props.handleClick();
+                        this.props.rehide();
                     }} className="btn btn-warning form-control">Random Question</button>
                     <h1>{this.props.title}</h1>
                     <h3>{this.props.question}</h3>

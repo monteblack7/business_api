@@ -1,3 +1,8 @@
+body {
+    background: url("./images/polygon-2880x1800-4k-5k-wallpaper-android-wallpaper-waves-background-3521.jpg") center center fixed;
+    background-size: cover;
+}
+
 .secret {
     display: none;
 }
@@ -8,4 +13,5 @@
 
 .title {
     text-align: center;
+    color: white;
 }
