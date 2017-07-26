@@ -8,6 +8,7 @@ import * as actionCreators from "../actions";
 class ImageContainer extends React.Component {
     unhideAnswer(){
         document.querySelector(".secret").style.display = "inline";
+        document.querySelector(".secret").style.textAlign = "center";
     }
     rehideAnswer(){
         document.querySelector(".secret").style.display = "none";
