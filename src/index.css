@@ -7,7 +7,6 @@ body {
 .secret {
     display: none;
     text-align: center;
-    color: white;
 }
 
 .custom {
@@ -17,4 +16,10 @@ body {
 .title {
     text-align: center;
     color: white;
+}
+.title2 {
+    text-align: center;
+}
+.btn {
+    margin: 20px;
 }

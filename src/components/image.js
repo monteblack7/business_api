@@ -11,9 +11,9 @@ class Image extends React.Component {
                         this.props.rehide();
                     }} className="btn btn-warning form-control">Random Question</button>
                     <h1 className="title">Title:</h1>
-                    <h1 className="title">{this.props.title}</h1>
+                    <h1 className="title2">{this.props.title}</h1>
                     <h3 className="title">Question:</h3>
-                    <h3 className="title">{this.props.question}</h3>
+                    <h3 className="title2">{this.props.question}</h3>
                 </div>
                 <div className="col-md-12">
                     <button onClick={() => {
